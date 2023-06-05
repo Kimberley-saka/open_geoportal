@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+.explore{
+    padding-top: 0;
+    display: flex;
+    background-image: url(/src/pages/images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.map-categories{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: solid;
+    border-color: white;
+    height: 25rem;
+    width: 70rem;
+}
+
+.admin{
+
+    border: solid;
+    color: inherit;
+}
