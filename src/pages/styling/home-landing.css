@@ -18,14 +18,14 @@
     justify-content: left;
     align-items: left;
     height: 14rem;
-    padding-left: 1rem;
-    padding-bottom: 1rem ;
+    padding:0 0 1rem 1rem;
     max-width: 25rem;
     font-size: 1.6rem;
     color: white;
 }
 
 .get-started-button{
+    font-family: inherit;
     color: white;
     text-decoration: none;
     border: solid;
@@ -34,7 +34,7 @@
     border-radius: 1rem;
     width: 8rem;
     height: 2.5rem;
-    transition: 0.1s;
+    transition: 0.2s;
    
 }
 
