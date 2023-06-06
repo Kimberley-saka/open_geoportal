@@ -31,7 +31,7 @@ export default function About(){
               project repository &nbsp;
               <a href='https://github.com/Kimberley-saka/open_geoportal'
               target='_blank' rel='noreferrer'>
-                here
+                here.
               </a>
               </p>
             </div>

@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Explore from './pages/Explore';
 import About from './pages/About';
 import Contact from './pages/contact';
+import Footer from './Footer';
 
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
         <Route path='/contact' element={<Contact/>}/>
 
       </Routes>
+
+      <Footer/>
 
     </div>
     
