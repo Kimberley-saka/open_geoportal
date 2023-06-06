@@ -17,7 +17,9 @@
 .map-categories{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1.2rem;
     border: solid;
+    align-items: stretch;
     border-color: white;
     height: 25rem;
     width: 70rem;
@@ -27,4 +29,9 @@
 
     border: solid;
     color: inherit;
+    border-radius: 1rem;
+}
+
+.admin:hover{
+    background-color: #777;
 }

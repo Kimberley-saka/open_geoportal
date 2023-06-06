@@ -10,17 +10,17 @@ export default function Explore(){
             </div>
 
             <div className='admin'>
-              Administration Boundaries
+              Transportation
             </div>
 
             <div className='admin'>
-              Administration Boundaries
+              <a href=''> Health </a>
             </div>
 
 
             <div className='admin'>
-              Administration Boundaries
-            </div>            
+              Water
+            </div>
           </div>        
         </div>
     );

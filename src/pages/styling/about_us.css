@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+.about{
+    display: flex;
+    background-image: url(/src/pages/images/image3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+div .content{
+    display: flex;
+    margin: 5rem 0 0 15rem;
+    width: 35rem;
+}
+
+.about-text{
+    color: #052833;
+    margin: 0;
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.description{
+    padding-top: 0;
+    margin-top: 0;
+    color:#052833;
+    font-size: 1.1rem;
+}
+
+div p a {
+    text-decoration: none;
+    color: #0383a6;
+}
+
