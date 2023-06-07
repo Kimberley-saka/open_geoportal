@@ -1,0 +1,35 @@
+div .contact-us{
+    display: flex;
+    background-image: url(/src/pages/images/image4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.contents{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: solid;
+    height: 18rem;
+    width: 20rem;
+    margin: 6rem 0 0 15rem;
+    padding: 0 0 0 1rem;
+}
+
+div .email-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-width: 0.1rem;
+    height: 2rem;
+    max-width: 2rem;
+    border-radius: 50%;
+}
+
+.email-address{
+    height: 1.4rem;
+    width: 1.4rem;
+}
