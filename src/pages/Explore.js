@@ -1,31 +1,56 @@
-import './styling/explore-style.css';
+import React, { useEffect } from "react";
+import 'ol/ol.css';
+import {Map, View} from 'ol';
+import TileLayer from "ol/layer/Tile";
+import OSM from 'ol/source/OSM';
+import './styling/explore-style.css'
 
-export default function Explore(){
+export default function AdminBoundaries(){
+    useEffect(()=>{
+        //new map instance
+        const map = new Map({
+            target: 'map-container',
+            layers: [
+                new TileLayer({
+                    source: new OSM(),
+                }),
+            ],
+            view: new View({
+                center: [0, 0],
+                zoom: 2,
+            }),
+        });
 
+        return () =>{
+            map.setTarget(null);
+        };
+    
+    }, []);
+    
+    
     return(
-        <div className="explore">
-          <p className='title'>Explore available datasets</p>
-          <div className='map-categories'>
-            <div className='admin'>
-              <a href='/admin-boundaries' >
-              Administration Boundaries
-              </a>
+
+        <div className="data-container">
+          <div className="datasets">
+            <p>
+            Datasets
+            </p>
+            <div className="data">
+              Boundaries
+              <div className="buttons">
+                <button>View</button>
+                <button>Download</button>
+              </div>
               
             </div>
+            
+          </div>
 
-            <div className='admin'>
-              Transportation
-            </div>
+          <div id="map-container">
+          </div>
 
-            <div className='admin'>
-              Health 
-            </div>
-
-
-            <div className='admin'>
-              Water
-            </div>
-          </div>        
         </div>
+        
     );
 }
+   

@@ -7,7 +7,6 @@ import Explore from './pages/Explore';
 import About from './pages/About';
 import Contact from './pages/contact';
 import Footer from './Footer';
-import AdminBoundaries from './pages/Admin';
 
 
 function App() {
@@ -23,7 +22,6 @@ function App() {
         <Route path='/explore' element={<Explore/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<Contact/>}/>
-        <Route path='admin-boundaries' element={<AdminBoundaries/>}/>
 
       </Routes>
 
