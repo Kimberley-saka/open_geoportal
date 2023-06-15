@@ -14,7 +14,7 @@ export default function Explore(){
             </div>
 
             <div className='admin'>
-              <a href=''> Health </a>
+              Health 
             </div>
 
 

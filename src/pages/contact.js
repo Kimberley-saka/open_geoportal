@@ -9,28 +9,32 @@ export default function Contact(){
   return(
     <div className="contact-us">
       <div className='contents'>
-        <p>
+        <p className='title-text'>
           Get in touch
         </p>
         <div className='email-container'>
-          <img src={emailsvg} alt='email'
-        className='email-address'/>
+          <img src={emailsvg} alt='email'/>
+          <p className='email'>kimberleysaka@gmail</p>
         </div>
 
-        <div className='email-container'>
-          <img src={phonesvg} alt='email'
-        className='email-address'/>
+        <div className='phone-container'>
+          <img src={phonesvg} alt='phone number'
+          />
+          <p className='phone-number'>+265 994 368 987</p>
         </div>
 
-        <div className='email-container'>
-          <img src={linkedinsvg} alt='email'
-        className='email-address'/>
+        <div className='linkedin-container'>
+  
+          <img src={linkedinsvg} alt='LinkedIn'/>
+          <p className='linkedin-username'>Kimberley Saka</p>
+          
+          
         </div>
 
-        <div className='email-container'>
+        <div className='twitter-container'>
           <img src={twittersvg}
-           alt='email'
-        className='email-address'/>
+           alt='Twitter'/>
+           <p className='twitter-account'> &#64;SaberMrypo </p>
         </div>
 
       </div>

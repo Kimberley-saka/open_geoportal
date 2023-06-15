@@ -6,30 +6,46 @@ div .contact-us{
     height: 100vh;
 }
 
+.title-text{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
 
 .contents{
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    border: solid;
-    height: 18rem;
-    width: 20rem;
+    border: none;
+    height: 20rem;
+    width: 25rem;
     margin: 6rem 0 0 15rem;
-    padding: 0 0 0 1rem;
+    padding: 0 0 0 2rem;
+    border-radius: 8%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
 }
 
-div .email-container{
+.contents:hover{
+    transform: scale(1.1)
+}
+
+div .email-container, .phone-container, .linkedin-container
+, .twitter-container{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    border: solid;
+    column-gap: 2rem;
+    flex-direction: row;
     border-width: 0.1rem;
     height: 2rem;
-    max-width: 2rem;
-    border-radius: 50%;
+    max-width: 100%;
+
 }
 
-.email-address{
+div img{
     height: 1.4rem;
     width: 1.4rem;
+}
+
+.email, .phone-number, .linkedin-username, .twitter-account{
+   margin: 0;
 }

@@ -43,6 +43,7 @@
     }
 
     .search{
+        display: flex;
         height: 2rem;
         padding-left: 1rem;
         border-radius: 1rem;
@@ -51,7 +52,8 @@
     }
 
     .search-bar{
-        width: 25rem;
+        width: 100%;
+        max-width: 20rem;
         display: flex;
         justify-content: center;
         align-items: center;
