@@ -12,6 +12,10 @@
 }
 
 .datasets{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
     height: inherit;
     width: 100%;
     max-width: 400px;
@@ -19,14 +23,8 @@
     white-space: nowrap;
 }
 
-.data{
-    display: flex;
-    flex-direction: column;
-    row-gap: 1rem;
-    border: solid;
-}
+.title{
+    font-size: 1.3rem;
+    font-weight: bold;
 
-button{
-    color: white;
-    background-color: #052833 
 }

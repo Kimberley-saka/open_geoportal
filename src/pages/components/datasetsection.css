@@ -1,0 +1,32 @@
+.datasection, .view{
+    border: none;
+}
+
+.datasection{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 0.7rem;
+    padding-left: 1rem;
+    height: 5rem;
+    width: 100%;
+    max-width: 22rem;
+    border-radius: 3%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.view{
+    background-color: #052833;
+    height: 2rem;
+    width: 3rem;
+    margin-bottom: 0.5rem;
+    border-radius: 10%;
+    transition: background-color 1ms;
+    color: white;
+}
+
+.view:hover{
+    background-color: #777;
+}

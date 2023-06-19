@@ -4,6 +4,7 @@ import {Map, View} from 'ol';
 import TileLayer from "ol/layer/Tile";
 import OSM from 'ol/source/OSM';
 import './styling/explore-style.css'
+import DatasetSection from "./components/DatasetSection";
 
 export default function AdminBoundaries(){
     useEffect(()=>{
@@ -32,19 +33,14 @@ export default function AdminBoundaries(){
 
         <div className="data-container">
           <div className="datasets">
-            <p>
-            Datasets
+            <p className="title">
+            CATEGORIES
             </p>
-            <div className="data">
-              Boundaries
-              <div className="buttons">
-                <button>View</button>
-                <button>Download</button>
-              </div>
-              
+            <DatasetSection value=" Administration Boundaries"/>
+            <DatasetSection value="Health"/>
+            <DatasetSection value="Transportation"/>
+            <DatasetSection value="water"/>      
             </div>
-            
-          </div>
 
           <div id="map-container">
           </div>
